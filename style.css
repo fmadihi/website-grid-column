@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section.wrapper{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:3px;
+}
+section.wrapper>section.header{
+    height: 100px;
+    line-height: 100px;
+    grid-column: 1/span 3;
+    background-color: aquamarine;
+    text-align: center;
+}
+section.wrapper>section.content{
+    height: 300px;
+    line-height: 50px;
+    grid-column: 1/span 2;
+    background-color: rgb(127, 255, 133);
+}
+section.wrapper>section.aside{
+    height: 300px;
+    line-height: 300px;
+    grid-column: 3/span 1;
+    background-color: rgb(246, 255, 127);
+}
+section.wrapper>section.blog-1{
+    height: 300px;
+    line-height: 30px;
+    grid-column: 1/span 1;
+    background-color: rgb(127, 172, 255);
+}
+section.wrapper>section.blog-2{
+    height: 300px;
+    line-height: 30px;
+    grid-column: 2/span 1;
+    background-color: rgb(176, 127, 255);
+}
+section.wrapper>section.blog-3{
+    height: 300px;
+    line-height: 30px;
+    grid-column: 3/span 1;
+    background-color: rgb(255, 127, 234);
+}
+section.wrapper>section.contact{
+    height: 200px;
+    line-height: 200px;
+    grid-column: 1/span 3;
+    background-color: rgb(255, 204, 127);
+}
+section.wrapper>section.footer{
+    height: 150px;
+    line-height: 80px;
+    grid-column: 1/span 3;
+    background-color: rgb(29, 32, 31);
+    color: whitesmoke;
+}
